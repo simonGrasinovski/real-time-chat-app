@@ -11,25 +11,28 @@ body {
     background-color: #ccc;
 }
 #form {
+    position: relative;
     width: 80%;
-    height: 60%;
+    height: 70%;
     max-width: 900px;
     min-height: 375px;
     background-color: #fff;
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    border-radius: 10px;
 }
 #message-container {
     height: 85%;
     overflow-y: scroll;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 #message-container div {
     background: #ccc;
     font-size: 1.05rem;
     margin-top: 10px;
     padding: 10px;
+    border-radius: 10px;
 }
 span {
     font-size: 0.9rem;
@@ -44,9 +47,11 @@ span {
     scrollbar-width: none; 
 }
 #send-container {
+    position: absolute;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
     display: flex;
-    width: 100%;
-    background-color: #74b9ff;
 }
 #send-container input{
     padding: 10px;
