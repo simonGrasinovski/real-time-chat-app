@@ -1,6 +1,6 @@
 # Real-time Chat App
 Chat application that uses socket.io
-##Usage
+## Usage
 1. ```bash
     # Install dependencies
     npm install  
